@@ -1,0 +1,139 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+	max-width: 100%;
+}
+
+.jon-header .navbar-brand {
+	font-size: 23px;
+	font-weight: 500;
+}
+/* .hoverl ul{
+	position: relative;
+}
+
+.hoverl ul li:hover{
+	position: absolute !important;
+	top: 100%;
+	left: 0;
+	transition: .4s all ease-in-out;
+	opacity: 0;
+	visibility: hidden;
+	
+}
+.hoverl ul li:hover ul{
+	opacity: 1;
+	visibility: visible;
+} */
+.jon-header span {
+	display: inline-block;
+	background: #6278df;
+	color: white;
+	height: 38px;
+	width: 39px;
+	line-height: 38px;
+	text-align: center;
+	border-radius: 10px;
+	position: relative;
+	top: 3px;
+	font-size: 28px;
+}
+.jon-eanun li{
+	margin-left: 20px !important;
+}
+/* slider-section */
+.slider-section {
+background: url(./mbr-10.jpg) no-repeat center center;
+padding: 200px 0;
+position: relative;
+z-index: 1;
+}
+.slider-section::after{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(10, 10, 10, .3);
+
+	z-index: -1;
+}
+.slider-caption h2{
+	margin-bottom: 50px;
+	font-size: 46px;
+	 
+}
+.slider-caption .btn {
+	padding: 6px 20px;
+	background: #5ba533;
+	font-size: 30px;
+	font-weight: 600;
+}
+.slider-caption .mli {
+	padding: 13px 20px;
+}
+
+/* .Activity-Goals */
+.Activity-Goals {
+	background: #f7f9ff;
+}
+.act-p {
+	margin-top: 150px;
+}
+.act-p h2 {
+	font-size: 40px;
+	margin-bottom: 36px;
+}
+.act-p p {
+	font-size: 21px;
+}
+/* featur-section */
+.feature-item {
+	height: 300px;
+	box-shadow: 2.5px 4.30px 30px 0  rgba(64, 87, 191, 0.1);
+}
+
+.left-img-sec {
+	width: 40%;
+	overflow: hidden;
+	border-radius: 5px 0 0 5px;
+}
+.left-text-sec {
+	width: 60%;
+	padding: 25px;
+
+}
+.left-img-sec img{
+	height: 100%;
+	width: auto !important;
+	max-width: inherit;
+	position: relative;
+	left: -80px;
+}
+
+/* protfolio-section */
+
+.protfolio-item {}
+.protfolio-item a{
+	position: relative;
+	display: block;
+	  
+}
+.protfolio-item a::after{
+	content: "";
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	background-color: rgba(196, 20, 240, .6);
+	opacity:0;
+	visibility: hidden;
+	transition: .4s;
+}
+.protfolio-item a:hover::after{
+	 opacity: 1;
+	 visibility: visible;
+}
